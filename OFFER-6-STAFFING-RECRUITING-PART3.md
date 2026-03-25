@@ -78,11 +78,11 @@ Scoring: Agency size, current tech stack, pain severity, budget range
                         CLOSE
 ═══════════════════════════════════════════════════════════════════
 
-Tier 1 — Starter ($2,500 setup + $997/mo)
+Tier 1 — Starter ($1,000 one-time + $300/mo)
   → Self-serve checkout for agencies <25 recruiters
-Tier 2 — Growth ($5,000 setup + $1,997/mo)
+Tier 2 — Professional ($2,000 one-time + $300/mo)
   → 15-min call + proposal for mid-market agencies
-Tier 3 — Enterprise ($15,000 setup + $4,997/mo)
+Tier 3 — Enterprise ($5,000 one-time + $300/mo, 90-day deployment)
   → Full discovery call + custom SOW for agencies 100+ recruiters
 
 Post-Close: Onboarding → AI Integrator placement → Ongoing optimization
@@ -560,10 +560,10 @@ Now watch what happens when an AI Integrator deploys the stack:
 
 | Item | Monthly Cost |
 |------|-------------|
-| AI Integrator placement (Growth tier) | $1,997 |
+| AI Integrator placement (Professional tier) | $300 |
 | AI infrastructure (APIs, compute) | $800-1,200 |
-| Setup fee (amortized over 12 months) | $417 |
-| **Total monthly investment** | **$3,414 - $3,614** |
+| Setup fee (amortized over 12 months) | $167 |
+| **Total monthly investment** | **$1,267 - $1,467** |
 
 **ROI: 65:1 in month one. 80:1 by month three as the system self-optimizes.**
 
@@ -647,7 +647,7 @@ Over the past 17 days, I've shown you:
 - The 3 lies AI vendors tell staffing agencies
 - What happened when an IT staffing agency went from 45 to 112 placements/month
 - The AI-Human Stack mechanism
-- The math ($3,400/mo investment → $237K/mo impact)
+- The math ($1,400/mo investment → $237K/mo impact)
 - How a healthcare agency passed their first clean audit in three years
 
 If you've read all of that and thought "this sounds great for other agencies" — fair enough. Delete this email and go back to screening resumes by hand.
@@ -662,7 +662,7 @@ But if you've read all of that and thought "I need to know what this looks like 
 
 ---
 
-### TIER 1: STARTER — $2,500 Setup + $997/month
+### TIER 1: STARTER — $1,000 One-Time + $300/month
 
 **Built for:** Agencies with 10-25 recruiters who want to start with the highest-ROI automations.
 
@@ -680,7 +680,7 @@ But if you've read all of that and thought "I need to know what this looks like 
 
 ---
 
-### TIER 2: GROWTH — $5,000 Setup + $1,997/month ← Most Popular
+### TIER 2: PROFESSIONAL — $2,000 One-Time + $300/month ← Most Popular
 
 **Built for:** Agencies with 25-75 recruiters ready for the full AI-Human Stack.
 
@@ -700,7 +700,7 @@ But if you've read all of that and thought "I need to know what this looks like 
 
 ---
 
-### TIER 3: ENTERPRISE — $15,000 Setup + $4,997/month
+### TIER 3: ENTERPRISE — $5,000 One-Time + $300/month (90-Day Deployment)
 
 **Built for:** Agencies with 75+ recruiters, multi-location, or compliance-heavy verticals (healthcare, government, finance).
 
@@ -741,7 +741,7 @@ The agencies moving now are the ones that will own the next decade of staffing. 
 — Justin Bellware
 Founder, AI Integrators
 
-P.S. — If you want to forward this to your ops team or business partner for their input, here's the short version: "We place a trained AI specialist into our agency who builds automations that 5x our recruiter capacity. Starts at $997/month. 60-day money-back guarantee. Want to look at this together?" — that should do it.
+P.S. — If you want to forward this to your ops team or business partner for their input, here's the short version: "We place a trained AI specialist into our agency who builds automations that 5x our recruiter capacity. Starts at $300/month. 60-day money-back guarantee. Want to look at this together?" — that should do it.
 
 ---
 
@@ -2030,6 +2030,316 @@ Every offer feeds the next. Content created from demo calls (Offer 4) fuels the 
 The staffing agency doesn't just become a client. They become a case study, a content source, a referral partner, and an upsell opportunity — all powered by the same ecosystem that acquired them.
 
 That's not a sales funnel. That's a flywheel.
+
+---
+
+---
+
+# 11. FULL PRE-LAUNCH CALENDAR
+
+## Overview
+
+This is the week-by-week execution plan for launching the Staffing & Recruiting AI vertical. Every task has an owner, a platform, and a deadline. The goal: by the end of Week 3, the full sales engine is live and generating pipeline.
+
+**Owners:**
+- **Justin** = Strategy, approvals, discovery calls, relationships
+- **Audrey** = Content creation, funnel building, email sequences, scheduling
+- **AI** = Claude Code / automation tools for asset generation, repurposing, data processing
+
+---
+
+## PRE-LAUNCH: WEEK 1 — Infrastructure Setup
+
+*Theme: Build the machine before you turn it on.*
+
+| Day | Task | Owner | Platform | Status |
+|-----|------|-------|----------|--------|
+| Mon | Set up GHL sub-account for Staffing vertical | Audrey | GoHighLevel | [ ] |
+| Mon | Create landing page: "Staffing Agency AI Playbook" opt-in (3 headline variants for A/B test) | Audrey | GHL | [ ] |
+| Mon | Design lead magnet PDF: "The Staffing Agency AI Playbook" (cover, 12 pages, CTA) | AI + Audrey | Claude Code + Canva | [ ] |
+| Tue | Build tripwire product page: "AI-Staffing Starter Kit" ($47) with Stripe checkout | Audrey | GHL + Stripe | [ ] |
+| Tue | Create tripwire deliverables: 5 automation templates + 15-min walkthrough video | Justin + AI | Loom + Claude Code | [ ] |
+| Tue | Set up email domain warming (2 domains minimum for cold outreach) | Audrey | Instantly/Smartlead | [ ] |
+| Wed | Build 7-email nurture sequence (all 7 emails written, loaded, triggers set) | AI + Audrey | Claude Code → GHL | [ ] |
+| Wed | Create Cal.com booking page: "15-Min AI Fit Assessment" with intake form | Audrey | Cal.com | [ ] |
+| Wed | Set up retargeting pixels on landing page + tripwire page (Meta + LinkedIn) | Audrey | Meta Ads / LinkedIn | [ ] |
+| Thu | Build thank-you page with video embed + tripwire upsell | Audrey | GHL | [ ] |
+| Thu | Create post-purchase onboarding email sequence (3 emails for tripwire buyers) | AI + Audrey | Claude Code → GHL | [ ] |
+| Thu | Set up CRM pipeline: Lead → Qualified → Assessment Booked → Proposal Sent → Closed | Audrey | GHL | [ ] |
+| Fri | Build discovery call closer asset (pre-call prep email with demo video link) | AI | Claude Code | [ ] |
+| Fri | Create competitive differentiation one-pager (PDF) | AI | Claude Code | [ ] |
+| Fri | QA all funnels: test opt-in → email delivery → tripwire checkout → booking flow | Audrey + Justin | All platforms | [ ] |
+| Fri | Set up analytics dashboard (opt-in rate, tripwire conversion, email open/click rates) | Audrey | GHL + Google Analytics | [ ] |
+
+**Week 1 Deliverables Checklist:**
+- [ ] Landing page live with 3 headline variants
+- [ ] Lead magnet PDF designed and hosted
+- [ ] Tripwire product page live with payment processing
+- [ ] 7-email nurture sequence loaded and tested
+- [ ] Cal.com booking page active
+- [ ] Retargeting pixels firing
+- [ ] CRM pipeline configured
+- [ ] Email domains warming
+
+---
+
+## PRE-LAUNCH: WEEK 2 — Content Stockpile
+
+*Theme: Create everything before publishing anything. Stockpile = consistency without burnout.*
+
+| Day | Task | Owner | Platform | Status |
+|-----|------|-------|----------|--------|
+| Mon | Record the staffing AI demo/pitch video (the "1 Demo Video" source asset) | Justin | Loom / Riverside | [ ] |
+| Mon | Write all 12 LinkedIn posts (use Claude Code with staffing copy style) | AI | Claude Code | [ ] |
+| Mon | Schedule LinkedIn posts: 3x/week for 4 weeks (12 posts total) | Audrey | LinkedIn / Buffer | [ ] |
+| Tue | Create 3 Twitter/X threads from demo video transcript | AI | Claude Code | [ ] |
+| Tue | Queue Twitter threads: 1x/week for 3 weeks | Audrey | Typefully / Buffer | [ ] |
+| Tue | Extract 5 YouTube Shorts from demo video (hook moments, stat reveals, pain points) | AI + Audrey | Claude Code + CapCut | [ ] |
+| Wed | Edit main YouTube video (intro/outro, captions, chapters, thumbnail) | Audrey | YouTube Studio | [ ] |
+| Wed | Create Instagram Reel + LinkedIn native video from best Short | Audrey | CapCut | [ ] |
+| Wed | Write 4 Beehiiv newsletter editions (weekly cadence for launch month) | AI | Claude Code | [ ] |
+| Thu | Draft 20 cold email angles (personalized by agency type: IT, healthcare, light industrial, exec search) | AI | Claude Code | [ ] |
+| Thu | Build cold email sequences in outreach tool (3 sequences x 5 emails each) | Audrey | Instantly/Smartlead | [ ] |
+| Thu | Create ROI calculator (spreadsheet or interactive page) | AI + Audrey | Google Sheets / GHL | [ ] |
+| Fri | Build retargeting ad creatives: 30-sec, 60-sec, 90-sec cuts from demo video | Audrey | CapCut + Meta Ads | [ ] |
+| Fri | Create LinkedIn outreach templates with video embed (5 variants) | AI | Claude Code | [ ] |
+| Fri | Write Skool/School orientation post + 5-day challenge outline | AI | Claude Code | [ ] |
+| Fri | Final content review: Justin approves all 12 LinkedIn posts, all email sequences, all ad creatives | Justin | All platforms | [ ] |
+
+**Week 2 Deliverables Checklist:**
+- [ ] Demo video recorded, edited, and ready for upload
+- [ ] 12 LinkedIn posts scheduled for 4 weeks
+- [ ] 3 Twitter threads queued
+- [ ] 5 YouTube Shorts edited
+- [ ] Main YouTube video edited with thumbnail
+- [ ] 4 newsletter editions drafted
+- [ ] 20 cold email angles written and loaded into sequences
+- [ ] Retargeting ad creatives (30/60/90 sec) ready
+- [ ] ROI calculator built
+- [ ] All content approved by Justin
+
+---
+
+## LAUNCH WEEK: WEEK 3 — Day-by-Day Activation
+
+*Theme: Everything fires in sequence. Each day builds on the last.*
+
+### Monday — The Foundation Drop
+
+| Time | Task | Owner | Platform |
+|------|------|-------|----------|
+| 8:00 AM | Publish main YouTube video | Audrey | YouTube |
+| 8:30 AM | Publish LinkedIn Post #1 (the "7 things I automated" value post) | Audrey | LinkedIn |
+| 9:00 AM | Send Newsletter Edition #1 to existing list (launch announcement + video embed) | Audrey | Beehiiv |
+| 9:00 AM | Upload demo video to landing page hero section | Audrey | GHL |
+| 10:00 AM | Activate Cold Email Sequence #1: IT Staffing agencies (first 100 prospects) | Audrey | Instantly |
+| 12:00 PM | Post YouTube Short #1 | Audrey | YouTube |
+| 2:00 PM | Post Instagram Reel #1 | Audrey | Instagram |
+| 4:00 PM | Pin orientation post in Skool community | Audrey | Skool |
+
+### Tuesday — The Social Push
+
+| Time | Task | Owner | Platform |
+|------|------|-------|----------|
+| 8:00 AM | Publish Twitter/X Thread #1 | Audrey | Twitter/X |
+| 9:00 AM | Send LinkedIn connection requests (50 staffing agency owners) with video message | AI + Audrey | LinkedIn |
+| 10:00 AM | Activate Cold Email Sequence #2: Healthcare staffing agencies (100 prospects) | Audrey | Instantly |
+| 12:00 PM | Post YouTube Short #2 | Audrey | YouTube |
+| 2:00 PM | Engage with all LinkedIn post comments from Day 1 | Justin | LinkedIn |
+| 4:00 PM | Email blast to integrator list: "New vertical — staffing. Here's the playbook." | Audrey | Beehiiv / GHL |
+
+### Wednesday — The Proof Day
+
+| Time | Task | Owner | Platform |
+|------|------|-------|----------|
+| 8:00 AM | Publish LinkedIn Post #2 (the ATS goldmine post) | Audrey | LinkedIn |
+| 9:00 AM | Activate Cold Email Sequence #3: Light industrial + exec search agencies (100 prospects) | Audrey | Instantly |
+| 10:00 AM | Post YouTube Short #3 | Audrey | YouTube |
+| 12:00 PM | Launch 5-day challenge in Skool: "Automate Your First Recruiting Workflow" (Day 1 content) | Audrey | Skool |
+| 2:00 PM | Activate retargeting ads: 30-sec video to landing page visitors who didn't opt in | Audrey | Meta Ads |
+| 4:00 PM | Personal DMs to 10 warm prospects from Justin's network | Justin | LinkedIn / Text |
+
+### Thursday — The Nurture Acceleration
+
+| Time | Task | Owner | Platform |
+|------|------|-------|----------|
+| 8:00 AM | Publish LinkedIn Post #3 (recruiter capacity formula) | Audrey | LinkedIn |
+| 9:00 AM | 5-day challenge Day 2 content posted | Audrey | Skool |
+| 10:00 AM | Activate retargeting ads: 60-sec video to PDF downloaders who didn't buy tripwire | Audrey | Meta Ads |
+| 12:00 PM | Post YouTube Short #4 | Audrey | YouTube |
+| 2:00 PM | Review cold email replies + hand off warm leads to Justin for calls | Audrey → Justin | Instantly → Cal.com |
+| 4:00 PM | Publish Twitter/X Thread #2 | Audrey | Twitter/X |
+
+### Friday — The Close Push
+
+| Time | Task | Owner | Platform |
+|------|------|-------|----------|
+| 8:00 AM | Send Newsletter Edition #2 (case study focus: IT staffing agency results) | Audrey | Beehiiv |
+| 9:00 AM | 5-day challenge Day 3 content posted | Audrey | Skool |
+| 10:00 AM | Post YouTube Short #5 | Audrey | YouTube |
+| 12:00 PM | Activate retargeting ads: 90-sec video to email openers who didn't book call | Audrey | Meta Ads |
+| 2:00 PM | Justin conducts first AI Fit Assessment calls (booked from Mon-Thu pipeline) | Justin | Cal.com / Zoom |
+| 4:00 PM | End-of-week metrics review: opt-ins, tripwire sales, calls booked, pipeline value | Justin + Audrey | Dashboard |
+
+### Weekend
+
+| Task | Owner | Platform |
+|------|-------|----------|
+| 5-day challenge Day 4 + Day 5 content auto-posts | Audrey (pre-scheduled) | Skool |
+| Cold email sequences continue dripping | Automated | Instantly |
+| Retargeting ads run continuously | Automated | Meta Ads |
+
+---
+
+## POST-LAUNCH: WEEKS 4-8 — The Engine Runs
+
+### Weekly Cadence (Repeats Every Week)
+
+| Day | Recurring Task | Owner | Platform |
+|-----|---------------|-------|----------|
+| Mon | Publish LinkedIn post (from stockpile, then create new) | Audrey | LinkedIn |
+| Mon | Review + respond to all cold email replies from prior week | Audrey + Justin | Instantly |
+| Mon | Send weekly newsletter edition | Audrey | Beehiiv |
+| Tue | Publish Twitter/X thread or post | Audrey | Twitter/X |
+| Tue | Send LinkedIn connection requests (50 new prospects) | AI + Audrey | LinkedIn |
+| Wed | Publish LinkedIn post #2 for the week | Audrey | LinkedIn |
+| Wed | Review retargeting ad performance, pause underperformers | Audrey | Meta Ads |
+| Thu | Justin conducts discovery/assessment calls (ongoing pipeline) | Justin | Cal.com / Zoom |
+| Thu | Publish YouTube Short or Reel | Audrey | YouTube / Instagram |
+| Fri | Weekly metrics review + pipeline update | Justin + Audrey | Dashboard |
+| Fri | Content planning for next week (identify gaps, create new posts if stockpile depleted) | AI + Audrey | Claude Code |
+
+### A/B Testing Schedule
+
+| Week | What Gets Tested | Metric | Owner |
+|------|-----------------|--------|-------|
+| Week 4 | Landing page headline variants (3 versions) | Opt-in conversion rate | Audrey |
+| Week 4 | Cold email subject lines (5 variants per sequence) | Open rate + reply rate | AI + Audrey |
+| Week 5 | Tripwire page pricing ($37 vs $47 vs $67) | Purchase conversion rate | Audrey |
+| Week 5 | Retargeting ad hooks (pain vs. aspiration vs. proof) | CTR + cost per opt-in | Audrey |
+| Week 6 | Email nurture sequence timing (daily vs. every-other-day vs. weekly) | Click-through rate + call bookings | Audrey |
+| Week 6 | LinkedIn post formats (text-only vs. carousel vs. video) | Engagement rate + profile visits | Audrey |
+| Week 7 | Discovery call script variations (ROI-led vs. pain-led vs. demo-led) | Close rate | Justin |
+| Week 7 | Newsletter subject line formulas (question vs. number vs. controversy) | Open rate | AI + Audrey |
+| Week 8 | Full funnel review: winning variants locked in, losers killed | All conversion metrics | Justin + Audrey |
+
+### Performance Review Checkpoints
+
+| Checkpoint | Date | Key Questions | Action Triggers |
+|-----------|------|---------------|-----------------|
+| **Week 4 Review** | End of Week 4 | Is opt-in rate above 25%? Are cold emails getting >2% reply rate? Any calls booked? | If opt-in < 15%: rewrite headline. If reply rate < 1%: rewrite email angle. If 0 calls: review qualification flow. |
+| **Week 6 Review** | End of Week 6 | How many total leads? Tripwire conversion rate? Pipeline value? Cost per lead? | If CPL > $50: shift budget to best-performing channel. If tripwire < 3%: test new price point. If pipeline < $10K: increase cold outreach volume 2x. |
+| **Week 8 Review** | End of Week 8 | First client closed? Revenue vs. spend? Which channel drives most qualified leads? | If no client closed: diagnose call recordings, adjust offer positioning. If positive ROI: double down on winning channel. Create case study from first client results. |
+
+### Optimization Triggers (Act Immediately When These Happen)
+
+| Trigger | Action | Owner |
+|---------|--------|-------|
+| Landing page opt-in rate drops below 15% | Swap headline to next A/B variant, check page load speed | Audrey |
+| Cold email reply rate exceeds 5% on any sequence | Double the send volume on that sequence | Audrey |
+| A LinkedIn post gets 50+ engagements | Boost it with $50 paid promotion, create a follow-up post | Audrey |
+| Tripwire buyer books an assessment call | Fast-track to Justin's calendar, send personal video message | Justin |
+| First client closes | Immediately draft case study outline, request testimonial, update landing page with proof | AI + Audrey + Justin |
+| Any retargeting ad CPL exceeds $75 | Pause that creative, rotate in the next variant | Audrey |
+| Email open rates drop below 20% | Clean list, test new subject line formula, check deliverability | Audrey |
+| 10+ assessment calls completed | Analyze close rate, identify objection patterns, update call script | Justin |
+| Skool challenge gets 20+ participants | Create a post-challenge upsell offer (limited-time Tier 1 discount) | Justin + Audrey |
+
+---
+
+# 12. VIDEO REPURPOSE MAP
+
+## Concept: 1 Demo Video → Every Sales Asset the Staffing Vertical Needs
+
+The full interactive video repurpose map is available as a standalone HTML file:
+**[Staffing_Video_Repurpose_Map.html](./Staffing_Video_Repurpose_Map.html)**
+
+One staffing AI demo/pitch video gets processed through Claude Code and repurposed into 35+ assets across 6 distribution channels.
+
+### The 6 Asset Buckets (35+ Total Assets)
+
+---
+
+### 1. PROMOTION (8 Assets)
+1. YouTube main video (full demo with intro/outro, captions, chapters)
+2. 5 YouTube Shorts (hook moments, stat reveals, pain points, before/after, CTA)
+3. LinkedIn native video (B2B angle: "How we 5x recruiter capacity with AI")
+4. Podcast clip / audio pull (strip audio for Spotify standalone episode)
+5. Twitter/X video clip (60-sec hook + CTA)
+6. Skool/School community post with video embed
+7. Instagram Reel (vertical format, staffing-specific hook)
+8. Email blast with video embed to both agency owner and integrator lists
+
+### 2. LEAD GENERATION (6 Assets)
+1. "Staffing Agency AI Playbook" PDF (the primary lead magnet, 12 pages)
+2. Opt-in landing page with demo video embed above the form
+3. 7-email nurture sequence (triggered by opt-in, drives to assessment call)
+4. "AI-Staffing Starter Kit" tripwire product ($47 — 5 templates + video walkthrough)
+5. Recruiter productivity checklist (1-page PDF, high shareability)
+6. Claude Code prompt templates for staffing (the exact prompts used in the demo)
+
+### 3. WEBSITE (5 Assets)
+1. Homepage hero video embed ("See what AI does for staffing agencies")
+2. "See It In Action" dedicated demo page with full breakdown
+3. 4 case study pages (IT staffing, healthcare, light industrial, executive search)
+4. Certification proof section (60-sec clip as social proof of integrator capability)
+5. Blog/SEO article: "How AI Is Transforming Staffing Agency Operations" with video inline
+
+### 4. PRODUCTS (5 Assets)
+1. The 3-tier offer (Starter $1,000 / Professional $2,000 / Enterprise $5,000)
+2. Webinar/workshop content (demo video as module 1 of live workshop)
+3. Agency-type specific playbooks (IT, healthcare, light industrial, exec search)
+4. ROI calculator (interactive tool: input agency size → see projected savings)
+5. VIP assessment day (premium $2,500+ offer: full audit + deployment plan)
+
+### 5. COMMUNITY (5 Assets)
+1. 5-day challenge: "Automate Your First Recruiting Workflow" (demo video = Day 1 orientation)
+2. Live Q&A / office hours session ("Watch the demo first, then join live for walkthrough")
+3. Community homework post ("Watch the video. Drop your #1 recruiting bottleneck in comments.")
+4. Referral hook ("Know a staffing agency owner drowning in manual work? Send them this.")
+5. Skool/School orientation pin (featured content at top of community)
+
+### 6. SALES (6 Assets)
+1. Discovery call closer (send demo video link in pre-call prep email)
+2. 20 cold email angles (personalized by agency type, each referencing the demo)
+3. Proposals with video embed (proof of methodology embedded in every client proposal)
+4. Retargeting ad creative — 30/60/90-sec cuts from demo video
+5. LinkedIn outreach with video (connection request + video message sequence)
+6. Competitive differentiation one-pager (PDF: "AI Integrators vs. Traditional Staffing Tech")
+
+---
+
+### Product Ladder (Built From 1 Demo Video)
+
+```
+FREE                    $47                    $1,000              $2,000              $5,000
+Staffing AI         AI-Staffing            Tier 1:              Tier 2:             Tier 3:
+Playbook PDF        Starter Kit            Starter              Professional        Enterprise
+(Lead Magnet)       (Tripwire)             (One-Time +          (One-Time +         (One-Time +
+                                           $300/mo)             $300/mo)            $300/mo, 90-day)
+     │                   │                      │                    │                    │
+     └───── opt-in ──────┘──── nurture email ───┘──── assessment ────┘──── discovery ────┘
+```
+
+### Priority Execution Order
+
+| Priority | Action | Timeline |
+|----------|--------|----------|
+| **1. DO NOW** | Record the staffing AI demo video + embed on landing page | Today |
+| **2. THIS WEEK** | Lead magnet PDF + email nurture sequence + first cold outreach batch (100 agencies) | This week |
+| **3. THIS MONTH** | Full content engine (all 12 LinkedIn posts live) + retargeting ads active + workshop scheduled | This month |
+
+### Asset Count Summary
+
+| Bucket | Count |
+|--------|-------|
+| Promotion | 8 |
+| Lead Generation | 6 |
+| Website | 5 |
+| Products | 5 |
+| Community | 5 |
+| Sales | 6 |
+| **TOTAL** | **35** |
 
 ---
 
