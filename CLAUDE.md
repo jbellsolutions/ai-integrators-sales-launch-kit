@@ -1,7 +1,7 @@
 # AI Integrators — Sales Launch Kit
 
 ## What This Is
-This repo contains 5 complete sales offers for AI Integrators. Each offer includes:
+This repo contains 6 complete sales offers for AI Integrators. Each offer includes:
 - Full product breakdown with pricing tiers and product ladder
 - Todd Brown-style long-form sales page copy
 - 5-email nurture sequences (fully written)
@@ -13,7 +13,7 @@ This repo contains 5 complete sales offers for AI Integrators. Each offer includ
 - Objection handling scripts
 - Content distribution plans
 
-## The 5 Offers
+## The 6 Offers
 
 | # | Offer | Target | Price Range | File |
 |---|-------|--------|-------------|------|
@@ -22,6 +22,7 @@ This repo contains 5 complete sales offers for AI Integrators. Each offer includ
 | 3 | Lean Operations Hub | Founders needing full AI operations team | $5,000 + $1,497-5,997/mo | OFFER-3-LEAN-OPERATIONS-HUB.md |
 | 4 | 1-Call Content Machine | Anyone with recordings to repurpose | $27-$2,500 | OFFER-4-ONE-CALL-CONTENT-MACHINE.md |
 | 5 | Ops Home Base | Non-technical ops people drowning in tabs | $47-$2,500 | OFFER-5-OPS-HOME-BASE.md |
+| 6 | AI Integrators for Staffing & Recruiting | Staffing agency owners (5-50 recruiters) | $1,000-$5,000 + $300/mo | 3 files: PART1 (product + sales page), PART2 (20 cold emails + LinkedIn outreach), PART3 (content + nurture + funnel) |
 
 ## How to Use This Repo
 
@@ -51,9 +52,9 @@ If you're giving this repo to a Claude Code session to execute:
 
 4. **To create lead magnet PDFs**: "Read OFFER-[X] and create the free PDF lead magnet using the page-by-page outline."
 
-5. **To run the full launch**: "Read all 5 offers. Create a launch calendar. Start with [Offer X]. Build all assets in priority order."
+5. **To run the full launch**: "Read all 6 offers. Create a launch calendar. Start with [Offer X]. Build all assets in priority order."
 
-## The Ascension Model (How the 5 Offers Connect)
+## The Ascension Model (How the 6 Offers Connect)
 
 ```
 Free Content / Social Media
