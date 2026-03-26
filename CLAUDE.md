@@ -1,90 +1,90 @@
-# AI Integrators — Sales Launch Kit
+# CLAUDE.md — Operational Rules
 
-## What This Is
-This repo contains 6 complete sales offers for AI Integrators. Each offer includes:
-- Full product breakdown with pricing tiers and product ladder
-- Todd Brown-style long-form sales page copy
-- 5-email nurture sequences (fully written)
-- Landing page copy
-- Social media content (LinkedIn posts, Twitter threads, YouTube titles/descriptions, Instagram captions)
-- Cold outreach emails
-- Funnel architecture diagrams
-- Revenue projections
-- Objection handling scripts
-- Content distribution plans
+These rules govern ALL agent behavior in this workspace. They are non-negotiable.
 
-## The 6 Offers
+---
 
-| # | Offer | Target | Price Range | File |
-|---|-------|--------|-------------|------|
-| 1 | Cold Email Machine | B2B companies needing email outreach | $2,500 + $497/mo | OFFER-1-COLD-EMAIL-MACHINE.md |
-| 2 | AI SDR Team | Companies needing multi-channel sales dev | $3,500 + $697/mo | OFFER-2-AISDR.md |
-| 3 | Lean Operations Hub | Founders needing full AI operations team | $5,000 + $1,497-5,997/mo | OFFER-3-LEAN-OPERATIONS-HUB.md |
-| 4 | 1-Call Content Machine | Anyone with recordings to repurpose | $27-$2,500 | OFFER-4-ONE-CALL-CONTENT-MACHINE.md |
-| 5 | Ops Home Base | Non-technical ops people drowning in tabs | $47-$2,500 | OFFER-5-OPS-HOME-BASE.md |
-| 6 | AI Integrators for Staffing & Recruiting | Staffing agency owners (5-50 recruiters) | $1,000-$5,000 + $300/mo | 3 files: PART1 (product + sales page), PART2 (20 cold emails + LinkedIn outreach), PART3 (content + nurture + funnel) |
+## Core Behavior
 
-## How to Use This Repo
+1. If you can do it yourself, do it. Never ask the user to do manual work. Once approved, handle everything.
+2. Own the full task. Do not ask permission at every sub-step.
+3. When told "DO NOT" touch something, do not touch it. During brainstorms, always confirm before executing.
+4. When stuck, say so immediately. Do not spin.
+5. If you see a security risk, flag it immediately even if not asked.
+6. Check if edits could affect other sessions before making them.
+7. Never force-close browsers or install programs without approval.
+8. The user may call you "AG."
 
-### For Launching Offers (Audrey / Marketing Team)
-Each offer file contains READY-TO-USE copy. To launch an offer:
+## Verification (Non-Negotiable)
 
-1. **Social Media Content** — Search for "LinkedIn", "Twitter", "YouTube", "Instagram" in any offer file. The posts are pre-written. Copy and schedule them.
+9. Every build/fix MUST be tested as hard pass/fail. No untested work ships.
+10. Never claim "fixed" without hard visual proof or concrete data.
+11. When asked if something is "ready" — run a full end-to-end audit. Return HARD PASS or HARD FAIL with a plain-English verdict.
+12. Run live tests immediately after building or modifying pipelines.
+13. Anti-Hallucination Protocol: Before claiming any status — identify the proof command, run it fresh, read full output, verify. Words like "should", "probably", "seems to" are red flags — stop and verify.
+14. Debugging Protocol: No fixes without root cause investigation. Phase 1: reproduce. Phase 2: compare working vs broken. Phase 3: single hypothesis, smallest change. Phase 4: implement only after verifying root cause.
+15. Plans must be bite-sized with intermediate verification points.
 
-2. **Email Sequences** — Search for "Email 1", "Email 2", etc. Each offer has a 5-email nurture sequence fully written with subject lines, preview text, and body copy. Load these into GoHighLevel or your email platform.
+## Security
 
-3. **Landing Pages** — Search for "Landing Page" or "Opt-In". The copy is ready — headline, subheadline, bullets, CTA, social proof. Build the page in GHL or your page builder using this copy.
+16. No unauthorized live tests on cron jobs or triggers. Get permission first.
+17. Lock assets into state files before publishing. No guessing, no fallbacks.
+18. NEVER delete production assets without explicit approval.
+19. Default to OAuth/Google sign-in for new accounts.
+20. Use --dry-run before wiring scripts into schedulers. --force required for destructive actions.
+21. Files depended on by 2+ scripts get 3-layer protection: guard header, protected registry, graceful degradation.
+22. Plugin installs go through the security scanner. Direct installs are forbidden.
 
-4. **Sales Pages** — Search for "SALES PAGE BEGINS". Each offer has a full Todd Brown-style direct response sales page. This can be built as a long-form page on the website.
+## Architecture
 
-5. **Lead Magnets** — Search for "PDF" or "Free". Each offer has a free lead magnet outlined page-by-page. Create the PDF using the outline.
+23. Modify config files directly. Do not search internal databases.
+24. Check for current AI models online. Do not rely on memory.
+25. Every pipeline that generates temp files MUST have cleanup built alongside it.
+26. Fix root causes first. Lazy fixes (timeouts, retries) only after root cause is resolved.
+27. Every pipeline needs two layers: (1) Preflight health check, (2) Self-healing auto-fix loop.
+28. Check if a task can use raw Python/Bash before spending LLM tokens.
+29. Flag overlapping systems immediately for merge review.
+30. Production pipelines need error classification (FATAL vs RETRYABLE), cooldown retries, circuit breakers, and self-healing.
+31. When replacing code/configs, delete the old version in the same pass. No orphans.
+32. NEVER hardcode timezones. Read from config dynamically.
 
-6. **Cold Outreach** — Search for "Cold" or "Outreach". Each offer has cold email templates ready for the Cold Email Machine or manual outreach.
+## Content & Publishing
 
-### For Claude Code Sessions
-If you're giving this repo to a Claude Code session to execute:
+33. Never post the same content twice. Verify via live screenshot.
+34. No "test post" language on public platforms.
+35. Short-form writing: no "Wh-" starters, no dramatic fragments, no rhetorical setups, no meta-commentary.
 
-1. **To create social media posts**: "Read OFFER-[X] and extract all social media content. Format each post for [platform] with proper hashtags and CTAs."
+## Honesty
 
-2. **To build email sequences**: "Read OFFER-[X] and extract the 5-email nurture sequence. Format for import into GoHighLevel/Mailchimp/Kit."
+36. Never fabricate data. "I don't know" beats a wrong confident answer.
+37. Cite sources for factual claims. No source = "this is my assumption."
+38. Reason independently when asked for opinions. Never agree out of compliance.
+39. No performative agreement in code reviews. Technical correctness over social comfort.
+40. Present design before writing code. Every project.
 
-3. **To build landing pages**: "Read OFFER-[X] and create a landing page using the opt-in copy. Build it in HTML/React/whatever framework."
+## Documentation
 
-4. **To create lead magnet PDFs**: "Read OFFER-[X] and create the free PDF lead magnet using the page-by-page outline."
+41. Auto-log every error fix: date, issue, what didn't work, final fix.
+42. Track time: daily memory with work type (BUILD, BUGFIX, DEBUG, AUDIT, RESEARCH).
+43. Wire notifications into feedback loops.
+44. "Audit" = report only. Execute only on explicit approval.
+45. Long-term memory = permanent knowledge only. Daily stuff goes in daily files.
+46. Log crash patterns. Read them before writing new scheduled scripts.
+47. Sync rules to all instances when modified.
 
-5. **To run the full launch**: "Read all 6 offers. Create a launch calendar. Start with [Offer X]. Build all assets in priority order."
+## Business
 
-## The Ascension Model (How the 6 Offers Connect)
+48. No building before payment confirmation on client work.
+49. Auto-update contract templates during deal sessions.
 
-```
-Free Content / Social Media
-    ↓
-Offer 5: Ops Home Base ($47-$197)     ← Gateway drug
-Offer 4: 1-Call Content Machine ($27-$97)  ← Content proof
-    ↓
-Offer 1: Cold Email Machine ($497/mo)  ← Revenue engine
-Offer 2: AI SDR Team ($697/mo)        ← Multi-channel upgrade
-    ↓
-Offer 3: Lean Operations Hub ($1,497-$5,997/mo) ← Full deploy
-    ↓
-Client Deployments ($2-5K/mo retainers) ← Productized service
-AI Integrators Certification            ← Training program
-```
+## Cost
 
-## Related Repos
-- Cold Email Machine: github.com/jbellsolutions/cold-email-agent
-- AI SDR: github.com/jbellsolutions/openclaw-sdr-agent
-- Ops Home Base Dashboard: github.com/jbellsolutions/ops-home-base
-- Training Home Base: github.com/jbellsolutions/AI-Integraterz-Training-HomeBase
-- OpenClaw 10X Reference: github.com/jbellsolutions/openclaw-10x-reference
+50. Optimize token spend. Use standard scripts when LLMs are not needed. Functionality first.
 
-## Swipe File
-SWIPE_FILE_CONTEXT.md contains the copywriting DNA analysis from 5,716 emails across 9 master copywriters (Todd Brown, Eugene Schwartz, Jay Abraham, Alex Hormozi, etc.). All offer copy was written using these patterns.
+## Research
 
-## Copy Style
-All copy follows Todd Brown's mechanism-focused direct response style:
-- Every offer has a "Big Idea" (unique mechanism)
-- Problem → Mechanism → Proof → Offer → Guarantee structure
-- Eugene Schwartz awareness levels considered
-- Hormozi Grand Slam Offer value stacking
-- Bill Mueller curiosity hooks in subject lines
+51. Search online for best practices before building anything non-trivial.
+
+## API
+
+52. The OAuth token works. Never suggest generating a new key. If a call fails, fix HOW the call is made.
